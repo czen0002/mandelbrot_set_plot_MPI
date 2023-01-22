@@ -1,2 +1,2 @@
-# mandelbrot_set_plot_MPI
-Design and Implementation of Mandelbrot set plot algorithms using Message Passing Interface
+# Design and Implementation of Mandelbrot set plot algorithms using Message Passing Interface
+This project presents how to design and implement two partition schemes to realize the parallelized Mandelbrot set plot algorithm using the Message Passing Interface library. Bernstein Condition is employed to check whether the Mandelbrot set plot algorithm can be parallelized, and Amdahl’s is used to analyze speed up factor. It is concluded that the speedup of Mandelbrot set plot program can be achieved by employing two partition schemes although there is difference between the actual and the theoretical speed up factors.
